@@ -1,27 +1,27 @@
 .intro {
-    width: 100%;
-    max-width: 984px;
-    padding: 0 0 92px 0;
-    box-sizing: border-box;
-    margin: 0 auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 984px;
+  padding: 0 0 92px 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-    .intro {
-        max-width: 928px;
-    }
+  .intro {
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .intro {
-        max-width: 100%;
-        padding: 0 24px 88px 24px;
-    }
+  .intro {
+    max-width: 100%;
+    padding: 0 24px 88px 24px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .intro {
-        max-width: 100%;
-        padding: 0 16px 64px 16px;
-    }
+  .intro {
+    max-width: 100%;
+    padding: 0 16px 64px 16px;
+  }
 }

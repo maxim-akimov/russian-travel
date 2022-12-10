@@ -1,23 +1,12 @@
 .place__image {
-    width: 100%;
-    padding-bottom: -100%;
-    grid-row: 2 / 4;
-}
-
-@media screen and (max-width: 1200px) {
-    .place__image {
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .place__image {
-
-    }
+  grid-row: 2 / 4;
+  padding-bottom: -100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
-    .place__image {
-        grid-row: 3;
-        padding-bottom: 32px;
-    }
+  .place__image {
+    grid-row: 3;
+    padding-bottom: 32px;
+  }
 }

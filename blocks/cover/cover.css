@@ -1,18 +1,8 @@
 .cover {
-    /*height: 740px;*/
-    width: 100%;
-    max-width: 1184px;
-    aspect-ratio: 8 / 5;
-    /*background: url(../../images/cover.jpg) no-repeat center top;
-    background-size: contain;*/
-    /*
-    font-size: 0;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    position: relative;*/
-    display: grid;
-    grid-template-rows: minmax(100%, max-content);
-    grid-template-columns: 1fr;
+  aspect-ratio: 8 / 5;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(100%, max-content);
+  max-width: 1184px;
+  width: 100%;
 }

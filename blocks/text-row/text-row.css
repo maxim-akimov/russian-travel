@@ -1,13 +1,13 @@
 .text-row {
-    display: inline;
+  display: inline;
 }
 
 .lead__text-row {
-    display: block;
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
-    .text-row {
-        display: block;
-    }
+  .text-row {
+    display: block;
+  }
 }

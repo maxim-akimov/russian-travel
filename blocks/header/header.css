@@ -1,25 +1,25 @@
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    box-sizing: border-box;
+  align-items: flex-end;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-    .header {
-        padding: 0 48px;
-    }
+  .header {
+    padding: 0 48px;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .header {
-        padding: 0 24px;
-    }
+  .header {
+    padding: 0 24px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .header {
-        padding: 0 16px;
-    }
+  .header {
+    padding: 0 16px;
+  }
 }

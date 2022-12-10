@@ -1,46 +1,33 @@
 .cover__link {
-    position: relative;
-    background: url(../../../images/cover.jpg) no-repeat center center;
-    background-size: contain;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(min-content, max-content);
-    align-content: center;
-    grid-gap: 32px;
-    color: #fff;
-    text-decoration: none;
+  align-content: center;
+  background: url(../../../images/cover.jpg) no-repeat center center;
+  background-size: contain;
+  color: #fff;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(min-content, max-content);
+  position: relative;
+  text-decoration: none;
 }
 
 .cover__link::after {
-    content: '';
-    background-color: rgba(42, 44, 47, .3);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transition: background-color .3s ease-in-out;
+  background-color: rgba(42, 44, 47, .3);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: background-color .3s ease-in-out;
+  width: 100%;
 }
 
 .cover__link:hover::after {
-    background-color: rgba(42, 44, 47, .8);
-}
-
-
-@media screen and (max-width: 600px) {
-    .cover__link {
-
-    }
+  background-color: rgba(42, 44, 47, .8);
 }
 
 @media screen and (max-width: 600px) {
-    .cover__link {
-
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .cover__link {
-        grid-gap: 16px;
-    }
+  .cover__link {
+    grid-gap: 16px;
+  }
 }
