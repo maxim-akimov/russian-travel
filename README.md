@@ -7,5 +7,7 @@ grid-layout и др.
 ## Технологии
 HTML, CSS, БЭМ-методология, flexbox, grid-layout
 
+## GitHub Pages
+https://maxim-akimov.github.io/russian-travel/
 
 
