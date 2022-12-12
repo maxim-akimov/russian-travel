@@ -2,9 +2,18 @@
   color: #fff;
   display: block;
   font-size: 24px;
-  height: 29px;
-  line-height: 1.7;
-  padding-bottom: 11px;
-  text-decoration: navajowhite;
-  width: 29px;
+  line-height: 1.6;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 600px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.9;
+    padding-bottom: 0;  }
 }
