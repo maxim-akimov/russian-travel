@@ -2,7 +2,7 @@
   box-sizing: border-box;
   font-size: 72px;
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 1.06;
   margin: 0;
   max-width: 460px;
   padding: 0 10px 48px 0;
@@ -25,6 +25,7 @@
 @media screen and (max-width: 600px) {
   .place__title {
     font-size: 32px;
+    line-height: 1.05;
     margin: 0 auto;
     max-width: 90%;
     padding: 0 10px 32px 0;
